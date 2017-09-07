@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <in>attack.c</in>
+      <in>bitboards.c</in>
+      <in>board.c</in>
+      <in>data.c</in>
+      <in>evaluate.c</in>
+      <in>hashkeys.c</in>
+      <in>init.c</in>
+      <in>io.c</in>
+      <in>makemove.c</in>
+      <in>misc.c</in>
+      <in>movegen.c</in>
+      <in>perft.c</in>
+      <in>pvtable.c</in>
+      <in>search.c</in>
+      <in>uci.c</in>
+      <in>validate.c</in>
+      <in>vice.c</in>
+      <in>xboard.c</in>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Application.mk</itemPath>
+      <itemPath>nbproject/private/launcher.properties</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Application.mk</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Application.mk</buildCommand>
+          <cleanCommand>${MAKE} -f Application.mk clean</cleanCommand>
+          <executablePath></executablePath>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
+          <preBuildCommand></preBuildCommand>
+        </preBuild>
+      </makefileType>
+      <item path="attack.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="bitboards.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="board.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="data.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="evaluate.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="hashkeys.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="init.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="io.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="makemove.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="misc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="movegen.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="perft.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="pvtable.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="search.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="uci.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="validate.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="vice.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="xboard.c" ex="false" tool="0" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
